@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 //rutas
-import { APP_ROUTING } from './app-routing.module';
+import { AppRouting } from './app-routing.module';
 //components
 import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
@@ -26,7 +26,7 @@ import { HeroesService } from './services/heroes.service';
   ],
   imports: [
     BrowserModule,
-    APP_ROUTING,
+    AppRouting,
     HttpClientModule,
   ],
   providers: [
